@@ -1,0 +1,3 @@
+{
+    "*.{js|ts}": ["bun run check:lint", "bun run check:types"]
+}
