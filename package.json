@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "build/main.js",
+  "author": "IVGolubev",
+  "license": "ISC",
+  "type": "module",
   "scripts": {
     "dev": "sh ./build.sh dev",
     "build": "sh ./build.sh build",
@@ -13,9 +16,9 @@
     "pre-commit": "npx lint-staged --no-stash",
     "preserveUnused": true
   },
-  "author": "IVGolubev",
-  "license": "ISC",
-  "type": "module",
+  "browserslist": [
+		"chrome > 100"
+	],
   "devDependencies": {
     "@eslint/js": "^9.9.1",
     "@front-utils/linter": "^0.5.6",
